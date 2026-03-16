@@ -1,5 +1,9 @@
 # Ex.No:1a  			Study of Socket Programming
 
+## Date:29/01/2026
+
+## Roll No: 212225230072
+
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
@@ -45,6 +49,38 @@ After establishing a connection, clients can send and receive data using send() 
 
 ## Use Cases of Socket Programming:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
+
+## Algorithm
+1.Start the program.
+
+2.Import the required Python library socket.
+
+3.Create a TCP socket using socket.socket().
+
+4.Define the IP address (127.0.0.1) and port number (8000).
+
+5.Bind the socket with the IP address and port number.
+
+6.Put the server in listening mode using listen().
+
+7.Wait for the client connection request.
+
+8.Accept the connection using accept().
+
+9.Receive data from the client using recv().
+
+10.Process the received message.
+
+11.Send a response back to the client using send().
+
+12.Continue communication until the client stops sending data.
+
+13.Close the client connection.
+
+14.Close the server socket.
+
+15.Stop the program.
+
 ## Input:
 Client:
 ```
