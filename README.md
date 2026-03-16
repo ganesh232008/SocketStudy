@@ -82,7 +82,7 @@ Socket programming finds applications in various domains, including web developm
 15.Stop the program.
 
 ## Input:
-Client:
+Server:
 ```
 import socket             
 # next create a socket object 
@@ -100,7 +100,7 @@ while True:
   # Close the connection with the client 
 c.close()
 ```
-Server:
+Client:
 ```
 # Import socket module 
 import socket             
